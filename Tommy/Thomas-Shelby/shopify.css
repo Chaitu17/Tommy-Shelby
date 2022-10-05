@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.shop-head {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    background-image: url(head_bg.jpeg);
+    margin-top: 0%;
+    color: darkslateblue;
+}
+
+.caption {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 95px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: darkorange;
+}
